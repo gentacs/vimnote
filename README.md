@@ -8,3 +8,4 @@
 * Buscar: **/caracteres_a_buscar**
 * Quitar resaltado de búsqueda: **:noh**
 * Insertar directorio: **ctrl+x ctrl+f**
+* Establecer modo pegar: **:set paste**
