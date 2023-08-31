@@ -53,6 +53,15 @@ Replace in current file | :%s/string_to_replace/new_string/g | COMMAND
 Replace in selected block | :'<,'>s/string_to_replace/new_string/g | VISUAL
 Remove highlight searchr | :noh | COMMAND
 
+## Upper/Lower case
+
+Description | keys | mode |
+--|--|--
+to lower case | u | VISUAL
+to upper case | U | VISUAL
+invert case | ~ | NORMAL
+invert case by motion | g~**motion** | NORMAL
+
 ## Buffer
 
 Description | keys | mode |
