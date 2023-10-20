@@ -23,6 +23,30 @@ move through the words in reverse. Go to the beginning of the current word | b |
 move through the words. Go to the end of the current word | e | NORMAL
 Go to specific line | **line_number**G | NORMAL
 Go to specific line | :**line_number** | COMMAND
+Go to the top of the screen | shift + H | NORMAL
+Go to the middle of the screen | shift + M | NORMAL
+Go to the bottom of the screen | shift + L | NORMAL
+Go to the next sentence | ) | NORMAL
+Go to the previous sentence | ( | NORMAL
+Go to the next paragraph | } | NORMAL
+Go to the previous paragraph | { | NORMAL
+Go to the next page | ctrl + f | NORMAL
+Go to the previous page | ctrl + b | NORMAL
+Move forward half a page | ctrl + d | NORMAL
+Move backward half a page | ctrl + u | NORMAL
+Move forward one line | ctrl + e | NORMAL
+Move backward one line | ctrl + y | NORMAL
+
+## Window motion
+
+Description | keys | mode |
+--|--|--
+To rotate windows up/left | (ctrl + w) + R | NORMAL
+To rotate windows down/right | (ctrl + w) + r | NORMAL
+Move the current window to the far right | (Ctrl + w) + L | NORMAL
+Move the current window to the far left | (Ctrl + w) + H | NORMAL
+Move the current window to the very bottom | (Ctrl + w) + J | NORMAL
+Move the current window to the very top | (Ctrl + w) + K | NORMAL
 
 ## Delete
 
@@ -69,12 +93,17 @@ Description | keys | mode |
 Open file | :open **file** | COMMAND
 open buffers list | :buffers | COMMAND
 delete open buffer | :bdelete **number** | COMMAND
+create mark | m**alphabetic_letter** | NORMAL
+go to mark | '**alphabetic_letter** | NORMAL
+go to last edited line | '. | NORMAL
+go to previous mark | '' | NORMAL
 
 Comentarie|Comando
 -------------|-------------
-Insertar directorio| **ctrl+x ctrl+f**
-Establecer modo pegar| **:set paste**
-Deshacer| **u**
-Rehacer| **ctrl+r**
-Abrir archivos| **:open &lt;filename>**
+Set paste mode | **:set paste**
+Undo | **u**
+Redo | **ctrl+r**
+Open file | **:open &lt;filename>**
 Intercambiar archivos| **:b &lt;filename&gt;**
+
+14 sep 13:00 916219629
